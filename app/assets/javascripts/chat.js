@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-  var scheme   = "ws://";
+  // var scheme   = "ws://"; // Development mode
+  var scheme   = "wss://";   // Production mode
   var uri      = scheme + window.document.location.host + "/";
   var ws       = new WebSocket(uri);
 
