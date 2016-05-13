@@ -22,3 +22,12 @@ Run server:
 ```
 foreman start
 ```
+
+### Live app
+
+- https://chatting-up.herokuapp.com/
+- Open multiple browser tabs and start chatting
+
+### Docs
+
+https://devcenter.heroku.com/articles/ruby-websockets
