@@ -1,0 +1,12 @@
+development: &development
+
+  #Redis
+  redis_url: "redis://127.0.0.1:6379/0"
+
+test:
+  <<: *development
+
+production:
+
+  #Redis
+  redis_url: "redis://127.0.0.1:6379/0"
